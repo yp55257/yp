@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Order will sucsesfull]]>
+    </line>
+    <line>
+      <![CDATA[Text will correct]]>
+    </line>
+    <line>
+      <![CDATA[tab was closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-08-23T17:48:59 IST" name="Default suite" finished-at="2022-08-23T17:51:41 IST" duration-ms="161296">
+    <groups>
+    </groups>
+    <test started-at="2022-08-23T17:48:59 IST" name="Default test" finished-at="2022-08-23T17:51:41 IST" duration-ms="161296">
+      <class name="testBase.OrderPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testBase.OrderPageTest@1cbb87f3]" started-at="2022-08-23T17:48:59 IST" name="setup" finished-at="2022-08-23T17:49:50 IST" duration-ms="51028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyByOrderTest()[pri:0, instance:testBase.OrderPageTest@1cbb87f3]" started-at="2022-08-23T17:49:50 IST" name="verifyByOrderTest" finished-at="2022-08-23T17:50:04 IST" duration-ms="13590" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Order will sucsesfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyByOrderTest -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:testBase.OrderPageTest@1cbb87f3]" started-at="2022-08-23T17:50:04 IST" name="exit" finished-at="2022-08-23T17:50:05 IST" duration-ms="874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testBase.OrderPageTest@1cbb87f3]" started-at="2022-08-23T17:50:05 IST" name="setup" finished-at="2022-08-23T17:50:43 IST" duration-ms="38116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyGetstartedText()[pri:0, instance:testBase.OrderPageTest@1cbb87f3]" started-at="2022-08-23T17:50:43 IST" name="verifyGetstartedText" finished-at="2022-08-23T17:50:52 IST" duration-ms="8568" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Text will correct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetstartedText -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:testBase.OrderPageTest@1cbb87f3]" started-at="2022-08-23T17:50:52 IST" name="exit" finished-at="2022-08-23T17:50:52 IST" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testBase.OrderPageTest@1cbb87f3]" started-at="2022-08-23T17:50:52 IST" name="setup" finished-at="2022-08-23T17:51:28 IST" duration-ms="36300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHistoryTest()[pri:0, instance:testBase.OrderPageTest@1cbb87f3]" started-at="2022-08-23T17:51:28 IST" name="verifyHistoryTest" finished-at="2022-08-23T17:51:40 IST" duration-ms="11298" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tab was closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHistoryTest -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:testBase.OrderPageTest@1cbb87f3]" started-at="2022-08-23T17:51:40 IST" name="exit" finished-at="2022-08-23T17:51:41 IST" duration-ms="922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- testBase.OrderPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
